@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="sbt: com.typesafe.akka:akka-actor_2.11:2.5.32:jar" external-system-id="SBT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../../custom_sbt_cache/coursier/cache/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.5.32/akka-actor_2.11-2.5.32.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

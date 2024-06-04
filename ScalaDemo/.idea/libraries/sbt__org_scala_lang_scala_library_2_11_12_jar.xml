@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="sbt: org.scala-lang:scala-library:2.11.12:jar" external-system-id="SBT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../../custom_sbt_cache/coursier/cache/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.12/scala-library-2.11.12.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

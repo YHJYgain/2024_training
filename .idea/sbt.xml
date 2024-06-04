@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaSbtSettings">
+    <option name="customLauncherPath" />
+    <option name="customVMPath" />
+    <option name="vmParameters" value="-Dsbt.ivy.home=D:/custom_sbt_cache/ivy2 -Dsbt.boot.directory=D:/custom_sbt_cache/boot -Dsbt.global.base=D:/custom_sbt_cache/sbt-global -Dsbt.coursier.home=D:/custom_sbt_cache/coursier -Dsun.stderr.encoding=UTF-8 -Dfile.encoding=UTF-8" />
+  </component>
+</project>

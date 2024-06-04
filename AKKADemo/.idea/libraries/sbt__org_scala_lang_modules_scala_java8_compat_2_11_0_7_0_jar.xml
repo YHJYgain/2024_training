@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="sbt: org.scala-lang.modules:scala-java8-compat_2.11:0.7.0:jar" external-system-id="SBT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../../custom_sbt_cache/coursier/cache/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.11/0.7.0/scala-java8-compat_2.11-0.7.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

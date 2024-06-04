@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaSbtSettings">
+    <option name="customLauncherPath" />
+    <option name="customVMPath" />
+    <option name="linkedExternalProjectsSettings">
+      <SbtProjectSettings>
+        <option name="converterVersion" value="2" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/project" />
+          </set>
+        </option>
+        <option name="resolveClassifiers" value="false" />
+        <option name="sbtVersion" value="1.10.0" />
+      </SbtProjectSettings>
+    </option>
+    <option name="vmParameters" value="-Dsbt.ivy.home=D:/custom_sbt_cache/ivy2 -Dsbt.boot.directory=D:/custom_sbt_cache/boot -Dsbt.global.base=D:/custom_sbt_cache/sbt-global -Dsbt.coursier.home=D:/custom_sbt_cache/coursier -Dsun.stderr.encoding=UTF-8 -Dfile.encoding=UTF-8" />
+  </component>
+</project>
