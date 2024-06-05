@@ -1,3 +1,4 @@
-[debug] not up to date. inChanged = true, force = false
+[warn] scala-xml_2.12-2.2.0.jar no longer exists at D:\custom_sbt_cache\coursier\cache\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.12\2.2.0\scala-xml_2.12-2.2.0.jar
+[debug] not up to date. inChanged = false, force = false
 [debug] Updating ProjectRef(uri("file:/D:/武科大/实习/小米/2024_training/ScalaDemo/project/"), "scalademo-build")...
 [debug] Done updating ProjectRef(uri("file:/D:/武科大/实习/小米/2024_training/ScalaDemo/project/"), "scalademo-build")
