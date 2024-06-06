@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module external.linked.project.id="root [file:/D:/武科大/实习/小米/2024_training/AKKADemo/]" external.linked.project.path="$MODULE_DIR$/../.." external.root.project.path="$MODULE_DIR$/../.." external.system.id="SBT" type="JAVA_MODULE" version="4">
-  <component name="CheckStyle-IDEA-Module" serialisationVersion="2">
-    <option name="activeLocationsIds" />
-  </component>
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_21">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_22">
     <output url="file://$MODULE_DIR$/../../target/scala-2.11/classes" />
     <output-test url="file://$MODULE_DIR$/../../target/scala-2.11/test-classes" />
     <exclude-output />

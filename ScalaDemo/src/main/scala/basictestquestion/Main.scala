@@ -1,5 +1,8 @@
 package basictestquestion
 
+import scala.concurrent.{Await, Future}
+import scala.concurrent.duration._
+
 object Main extends App {
 
   val configStr: String =
@@ -25,7 +28,6 @@ switchB.metaInfo.comment = "hello world"
   parser.parseLine("switchB.depList = [3, 4, 5]")
   parser.parseLine("switchB.metaInfo.owner = \"userB\"")
   parser.parseLine("switchB.metaInfo.comment = \"hello world\"")
-
   val result: ConfigParser.Result = parser.getResult()
   result.data.foreach(data => println(ConfigParser.stringify(data)))
 
@@ -33,7 +35,8 @@ switchB.metaInfo.comment = "hello world"
 
   println("【bonus3：多线程】")
   val configStrList: List[String] = List(configStr)
-  private val resultList: List[ConfigParser.Result] = parser.parseAll(configStrList)
+  private val resultFuture: Future[List[ConfigParser.Result]] = parser.parseAll(configStrList)
+  private val resultList: List[ConfigParser.Result] = Await.result(resultFuture, 10.seconds)
   resultList.foreach(res => println(ConfigParser.toPrettyString(res)))
 
 }

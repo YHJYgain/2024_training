@@ -8,14 +8,14 @@ object ConfigParser {
 
   // 定义配置项的数据结构
   case class SwitchConfig(
-                           name: String, // 开关的名称
-                           properties: Map[String, Any] = Map() // 配置内容
+                           name: String,
+                           properties: Map[String, Any] = Map()
                          )
 
   // 定义解析结果的数据结构，包含解析后的数据或错误信息
   case class Result(
-                     data: Option[Map[String, SwitchConfig]], // 解析后的数据
-                     error: Option[String] // 第一个错误的信息
+                     data: Option[Map[String, SwitchConfig]],
+                     error: Option[String]
                    )
 
   def stringify(configMap: Map[String, SwitchConfig]): String = {
@@ -102,16 +102,13 @@ class ConfigParser {
     }
   }
 
-  def parseAll(configStrList: List[String]): List[Result] = {
-    import scala.concurrent.Await
-    import scala.concurrent.duration._
-
+  def parseAll(configStrList: List[String]): Future[List[Result]] = {
     val futures = configStrList.map(configStr => Future {
       val parser = new ConfigParser()
       parser.parse(configStr)
     })
 
-    Await.result(Future.sequence(futures), 10.seconds)
+    Future.sequence(futures)
   }
 
 }
