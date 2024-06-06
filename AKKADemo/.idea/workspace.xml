@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6921d2b6-52ea-4ea5-a128-8b6c2f0104a6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_actor_2_11_2_5_32_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_config_1_3_3_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_java8_compat_2_11_0_7_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_parser_combinators_2_11_2_2_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_11_12_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__scala_sdk_2_11_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/AKKADemo.AKKADemo-build.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/AKKADemo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sbt.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$7c91a247db6f9917e14d$.class" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/config-classes/$7c91a247db6f9917e14d$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$7dcd93aac0bde27ee746$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$7dcd93aac0bde27ee746.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$7dcd93aac0bde27ee746.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8443e63fea887f39d9c1$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8443e63fea887f39d9c1.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8443e63fea887f39d9c1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/_global/_global/csrLogger/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/_global/_global/csrLogger/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/_global/update/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/_global/update/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/update/update_cache_2.11/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/update/update_cache_2.11/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/update/update_cache_2.11/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/update/update_cache_2.11/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/_global/csrLogger/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/_global/csrLogger/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/_global/dumpStructure/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/_global/dumpStructure/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.11/input_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.11/input_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.11/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.11/output_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/ssExtractDependencies/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/ssExtractDependencies/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/managedClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/managedClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PlayDemo/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/../PlayDemo/build.sbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaDemo/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaDemo/.idea/libraries/sbt__org_scala_lang_modules_scala_parser_combinators_2_11_2_2_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ScalaDemo/.idea/libraries/sbt__org_scala_lang_modules_scala_parser_combinators_2_11_2_2_0_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaDemo/.idea/libraries/sbt__org_scala_lang_scala_library_2_11_12_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ScalaDemo/.idea/libraries/sbt__org_scala_lang_scala_library_2_11_12_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaDemo/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ScalaDemo/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaDemo/.idea/modules/ScalaDemo.ScalaDemo-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ScalaDemo/.idea/modules/ScalaDemo.ScalaDemo-build.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaDemo/.idea/modules/ScalaDemo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ScalaDemo/.idea/modules/ScalaDemo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaDemo/.idea/sbt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ScalaDemo/.idea/sbt.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaDemo/project/target/config-classes/$28b66656db3c2670f6f8$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaDemo/project/target/config-classes/$28b66656db3c2670f6f8.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaDemo/project/target/config-classes/$28b66656db3c2670f6f8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaDemo/project/target/streams/_global/_global/csrLogger/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../ScalaDemo/project/target/streams/_global/_global/csrLogger/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaDemo/project/target/streams/_global/update/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../ScalaDemo/project/target/streams/_global/update/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaDemo/src/main/scala/basictestquestion/ConfigParser.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../ScalaDemo/src/main/scala/basictestquestion/ConfigParser.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaDemo/src/main/scala/basictestquestion/Main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../ScalaDemo/src/main/scala/basictestquestion/Main.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaDemo/src/main/scala/example/Main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../ScalaDemo/src/main/scala/example/Main.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaDemo/target/scala-2.11/classes/basictestquestion/ConfigParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ScalaDemo/target/scala-2.11/classes/basictestquestion/ConfigParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaDemo/target/scala-2.11/classes/basictestquestion/Main$.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ScalaDemo/target/scala-2.11/classes/basictestquestion/Main$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaDemo/target/scala-2.11/classes/basictestquestion/Main$delayedInit$body.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ScalaDemo/target/scala-2.11/classes/basictestquestion/Main$delayedInit$body.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaDemo/target/scala-2.11/classes/basictestquestion/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ScalaDemo/target/scala-2.11/classes/basictestquestion/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaDemo/target/scala-2.11/classes/example/Main$.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ScalaDemo/target/scala-2.11/classes/example/Main$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaDemo/target/streams/_global/_global/csrLogger/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../ScalaDemo/target/streams/_global/_global/csrLogger/_global/streams/out" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "YHJYgain"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:YHJYgain/2024_training.git",
+    "accountId": "497ed791-4aca-48d7-b3c0-a6ae99d508f7"
+  }
+}]]></component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\.m2\repository" />
+        <option name="userSettingsFile" value="D:\.m2\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="2hVnhX8djAWnopYCrl2O6gZyZvh" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6921d2b6-52ea-4ea5-a128-8b6c2f0104a6" name="Changes" comment="" />
+      <created>1717688234284</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1717688234284</updated>
+      <workItem from="1717688235553" duration="272000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
