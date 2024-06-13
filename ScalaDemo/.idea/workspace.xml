@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0123428-9791-42c7-a810-1d5ef613f850" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../AKKADemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AKKADemo/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayDemo/app/controllers/example/Application.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PlayDemo/app/controllers/HomeController.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../PlayDemo/app/controllers/HomeController.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PlayDemo/conf/routes" beforeDir="false" afterPath="$PROJECT_DIR$/../PlayDemo/conf/routes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,6 +109,7 @@
       <workItem from="1717687830922" duration="668000" />
       <workItem from="1717688728748" duration="427000" />
       <workItem from="1717753950959" duration="9000" />
+      <workItem from="1718260919315" duration="1728000" />
     </task>
     <servers />
   </component>

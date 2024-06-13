@@ -1,15 +1,15 @@
 package controllers
 
-import javax.inject._
-import play.api._
 import play.api.mvc._
+
+import scala.concurrent.ExecutionContext.Implicits.global
+import scala.concurrent.Future
 
 /**
  * This controller creates an `Action` to handle HTTP requests to the
  * application's home page.
  */
-@Singleton
-class HomeController @Inject() extends Controller {
+class HomeController extends Controller {
 
   /**
    * Create an Action to render an HTML page.
@@ -19,6 +19,23 @@ class HomeController @Inject() extends Controller {
    * a path of `/`.
    */
   def index(): Action[AnyContent] = Action { implicit request: Request[AnyContent] =>
+    val anyStatus = Status(488)("Strange response type")
     Ok(views.html.index())
   }
+
+  def helloWorld(): Action[AnyContent] = Action { implicit request: Request[AnyContent] =>
+    Ok("Hello, World!")
+  }
+
+  def helloWorldAsync(): Action[AnyContent] = Action.async { implicit request: Request[AnyContent] =>
+    val futureResult: Future[String] = Future {
+      // Simulate a long-running task
+      Thread.sleep(3000)
+      "Hello, World!"
+    }
+    futureResult.map { result =>
+      Ok(result)
+    }
+  }
+
 }
