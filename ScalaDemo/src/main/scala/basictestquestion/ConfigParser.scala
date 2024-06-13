@@ -12,11 +12,14 @@ object ConfigParser {
                            properties: Map[String, Any] = Map()
                          )
 
+//  // 定义解析结果的数据结构，包含解析后的数据或错误信息
+//  case class Result(
+//                     data: Option[Map[String, SwitchConfig]],
+//                     error: Option[String]
+//                   )
+
   // 定义解析结果的数据结构，包含解析后的数据或错误信息
-  case class Result(
-                     data: Option[Map[String, SwitchConfig]],
-                     error: Option[String]
-                   )
+  type Result = Either[String, Map[String, SwitchConfig]]
 
   def stringify(configMap: Map[String, SwitchConfig]): String = {
     configMap.map { case (name, config) =>
@@ -27,9 +30,26 @@ object ConfigParser {
     }.mkString("\n")
   }
 
+//  def toPrettyString(result: Result): String = {
+//    result match {
+//      case Result(Some(data), None) =>
+//        val switches = data.map { case (name, config) =>
+//          s"Switch: $name\n" +
+//            config.properties.map { case (k, v) =>
+//              s"  $k: $v"
+//            }.mkString("\n")
+//        }.mkString("\n")
+//        s"Configuration:\n$switches"
+//      case Result(None, Some(error)) =>
+//        s"Error: $error"
+//      case _ =>
+//        "Invalid result"
+//    }
+//  }
+
   def toPrettyString(result: Result): String = {
     result match {
-      case Result(Some(data), None) =>
+      case Right(data) =>
         val switches = data.map { case (name, config) =>
           s"Switch: $name\n" +
             config.properties.map { case (k, v) =>
@@ -37,10 +57,8 @@ object ConfigParser {
             }.mkString("\n")
         }.mkString("\n")
         s"Configuration:\n$switches"
-      case Result(None, Some(error)) =>
+      case Left(error) =>
         s"Error: $error"
-      case _ =>
-        "Invalid result"
     }
   }
 
@@ -66,7 +84,7 @@ class ConfigParser {
       parseLine(line)
     }
 
-    getResult()
+    getResult
   }
 
   def parseLine(line: String): Unit = {
@@ -95,10 +113,17 @@ class ConfigParser {
     }
   }
 
-  def getResult(): Result = {
+//  def getResult(): Result = {
+//    error match {
+//      case Some(err) => Result(None, Some(err))
+//      case None => Result(Some(configMap.toMap), None)
+//    }
+//  }
+
+  def getResult: Result = {
     error match {
-      case Some(err) => Result(None, Some(err))
-      case None => Result(Some(configMap.toMap), None)
+      case Some(err) => Left(err)
+      case None => Right(configMap.toMap)
     }
   }
 

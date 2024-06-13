@@ -28,8 +28,12 @@ switchB.metaInfo.comment = "hello world"
   parser.parseLine("switchB.depList = [3, 4, 5]")
   parser.parseLine("switchB.metaInfo.owner = \"userB\"")
   parser.parseLine("switchB.metaInfo.comment = \"hello world\"")
-  val result: ConfigParser.Result = parser.getResult()
-  result.data.foreach(data => println(ConfigParser.stringify(data)))
+  val result: ConfigParser.Result = parser.getResult
+//  result.data.foreach(data => println(ConfigParser.stringify(data)))
+  result match {
+    case Right(data) => println(ConfigParser.stringify(data))
+    case Left(error) => println(s"Error: $error")
+  }
 
   println("-----------------------------------------------------------")
 

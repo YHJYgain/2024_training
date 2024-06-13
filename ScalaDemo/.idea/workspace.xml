@@ -5,10 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0123428-9791-42c7-a810-1d5ef613f850" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../PlayDemo/app/controllers/example/Application.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PlayDemo/app/controllers/HomeController.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../PlayDemo/app/controllers/HomeController.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PlayDemo/app/controllers/example/Application.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../PlayDemo/app/controllers/example/Application.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PlayDemo/conf/routes" beforeDir="false" afterPath="$PROJECT_DIR$/../PlayDemo/conf/routes" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/basictestquestion/ConfigParser.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/basictestquestion/ConfigParser.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/basictestquestion/Main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/basictestquestion/Main.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$1$$anonfun$apply$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$1$$anonfun$apply$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$3$$anonfun$apply$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$3$$anonfun$apply$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$basictestquestion$ConfigParser$$parse$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$basictestquestion$ConfigParser$$parse$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$basictestquestion$ConfigParser$$parse$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$basictestquestion$ConfigParser$$parse$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$parseValue$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$parseValue$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$parseValue$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$parseValue$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$parseValue$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$parseValue$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$parseValue$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$parseValue$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$stringify$1$$anonfun$apply$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$stringify$1$$anonfun$apply$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$stringify$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$stringify$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/basictestquestion/ConfigParser$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/basictestquestion/ConfigParser$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/basictestquestion/ConfigParser$Result$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/basictestquestion/ConfigParser$Result.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/basictestquestion/ConfigParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/basictestquestion/ConfigParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/basictestquestion/Main$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/basictestquestion/Main$$anonfun$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/basictestquestion/Main$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/basictestquestion/Main$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/basictestquestion/Main$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/basictestquestion/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/basictestquestion/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +131,7 @@
       <workItem from="1717687830922" duration="668000" />
       <workItem from="1717688728748" duration="427000" />
       <workItem from="1717753950959" duration="9000" />
-      <workItem from="1718260919315" duration="1728000" />
+      <workItem from="1718260919315" duration="4872000" />
     </task>
     <servers />
   </component>
