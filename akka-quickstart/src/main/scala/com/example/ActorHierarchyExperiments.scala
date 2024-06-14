@@ -1,6 +1,6 @@
 package com.example
 
-import akka.actor.typed.{ActorSystem, Behavior, PostStop, Signal}
+import akka.actor.typed.{ActorSystem, Behavior, PostStop, PreRestart, Signal, SupervisorStrategy}
 import akka.actor.typed.scaladsl.AbstractBehavior
 import akka.actor.typed.scaladsl.ActorContext
 import akka.actor.typed.scaladsl.Behaviors
@@ -22,23 +22,6 @@ private class PrintMyActorRefActor(context: ActorContext[String]) extends Abstra
     }
 }
 
-// 另一个 Actor，用于启动 Actor 系统并创建 PrintMyActorRefActor
-object Main {
-  def apply(): Behavior[String] =
-    Behaviors.setup(context => new Main(context))
-}
-
-private class Main(context: ActorContext[String]) extends AbstractBehavior[String](context) {
-  override def onMessage(msg: String): Behavior[String] =
-    msg match {
-      case "start" =>
-        val firstRef = context.spawn(PrintMyActorRefActor(), "first-actor")
-        println(s"First: $firstRef")
-        firstRef ! "printit"
-        this
-    }
-}
-
 object StartStopActor1 {
   def apply(): Behavior[String] =
     Behaviors.setup(context => new StartStopActor1(context))
@@ -53,6 +36,7 @@ private class StartStopActor1(context: ActorContext[String]) extends AbstractBeh
       case "stop" => Behaviors.stopped
     }
 
+  // 处理 PostStop 信号，当 Actor 停止时打印 "first stopped"
   override def onSignal: PartialFunction[Signal, Behavior[String]] = {
     case PostStop =>
       println("first stopped")
@@ -69,7 +53,7 @@ private class StartStopActor2(context: ActorContext[String]) extends AbstractBeh
   println("second started")
 
   override def onMessage(msg: String): Behavior[String] = {
-    // no messages handled by this actor
+    // 此 actor 不处理任何消息
     Behaviors.unhandled
   }
 
@@ -78,6 +62,75 @@ private class StartStopActor2(context: ActorContext[String]) extends AbstractBeh
       println("second stopped")
       this
   }
+}
+
+// 一个监督 Actor，它管理一个子 Actor
+object SupervisingActor {
+  def apply(): Behavior[String] =
+    Behaviors.setup(context => new SupervisingActor(context))
+}
+
+private class SupervisingActor(context: ActorContext[String]) extends AbstractBehavior[String](context) {
+  private val child = context.spawn(
+    Behaviors.supervise(SupervisedActor()).onFailure(SupervisorStrategy.restart), // 子 Actor 失败时将被重新启动
+    name = "supervised-actor")
+
+  override def onMessage(msg: String): Behavior[String] =
+    msg match {
+      case "failChild" =>
+        child ! "fail"
+        this
+    }
+}
+
+// 一个受监督的 Actor
+object SupervisedActor {
+  def apply(): Behavior[String] =
+    Behaviors.setup(context => new SupervisedActor(context))
+}
+
+private class SupervisedActor(context: ActorContext[String]) extends AbstractBehavior[String](context) {
+  println("supervised actor started")
+
+  override def onMessage(msg: String): Behavior[String] =
+    msg match {
+      case "fail" =>
+        println("supervised actor fails now")
+        throw new Exception("I failed!")
+    }
+
+  override def onSignal: PartialFunction[Signal, Behavior[String]] = {
+    case PreRestart =>
+      println("supervised actor will be restarted")
+      this
+    case PostStop =>
+      println("supervised actor stopped")
+      this
+  }
+}
+
+// 一个 Actor，用于启动 Actor 系统
+object Main {
+  def apply(): Behavior[String] =
+    Behaviors.setup(context => new Main(context))
+}
+
+private class Main(context: ActorContext[String]) extends AbstractBehavior[String](context) {
+  override def onMessage(msg: String): Behavior[String] =
+    msg match {
+      case "start" =>
+//        val firstRef = context.spawn(PrintMyActorRefActor(), "first-actor")
+//        println(s"First: $firstRef")
+//        firstRef ! "printit"
+
+//        val first = context.spawn(StartStopActor1(), "first")
+//        first ! "stop"
+
+        val supervisingActor = context.spawn(SupervisingActor(), "supervising-actor")
+        supervisingActor ! "failChild"
+
+        this
+    }
 }
 
 object ActorHierarchyExperiments extends App {
