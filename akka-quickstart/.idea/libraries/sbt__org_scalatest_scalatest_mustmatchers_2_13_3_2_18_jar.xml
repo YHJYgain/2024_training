@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: org.scalatest:scalatest-mustmatchers_2.13:3.2.18:jar" external-system-id="SBT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../../custom_sbt_cache/coursier/cache/https/repo1.maven.org/maven2/org/scalatest/scalatest-mustmatchers_2.13/3.2.18/scalatest-mustmatchers_2.13-3.2.18.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../../../custom_sbt_cache/coursier/cache/https/repo1.maven.org/maven2/org/scalatest/scalatest-mustmatchers_2.13/3.2.18/scalatest-mustmatchers_2.13-3.2.18-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
