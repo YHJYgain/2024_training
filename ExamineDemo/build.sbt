@@ -32,10 +32,8 @@ libraryDependencies ++= Seq(
   "org.scala-lang.modules" %% "scala-parser-combinators" % "1.1.0",
 
   "com.typesafe.akka" %% "akka-actor" % "2.5.13",
-  "com.typesafe.akka" %% "akka-actor-typed" % akkaVersion,
   "com.typesafe.akka" %% "akka-slf4j" % akkaVersion,
   "com.typesafe.akka" %% "akka-stream" % akkaVersion,
-  "com.typesafe.akka" %% "akka-actor-testkit-typed" % akkaVersion % Test,
   "org.scalatest" %% "scalatest" % "3.2.18" % Test
 )
 
@@ -53,7 +51,6 @@ dependencyOverrides ++= Set(
   "org.scala-lang.modules" %% "scala-parser-combinators" % "1.1.0",
 
   "com.typesafe.akka" %% "akka-actor" % "2.5.13",
-  "com.typesafe.akka" %% "akka-actor-typed" % "2.5.13",
   "com.typesafe.akka" %% "akka-slf4j" % "2.5.13",
   "com.typesafe.akka" %% "akka-stream" % "2.5.13"
 )

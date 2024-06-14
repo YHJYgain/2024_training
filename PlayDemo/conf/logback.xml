@@ -1,11 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-
-<!-- https://www.playframework.com/documentation/latest/SettingsLogger -->
-
-<!DOCTYPE configuration>
-
 <configuration>
-
   <appender name="FILE" class="ch.qos.logback.core.FileAppender">
     <file>${application.home:-.}/logs/application.log</file>
     <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
@@ -38,7 +31,7 @@
   <logger name="play" level="INFO"/>
   <logger name="application" level="DEBUG"/>
 
-  <root>
+  <root level="WARN">
     <appender-ref ref="ASYNCFILE" />
     <appender-ref ref="ASYNCSTDOUT" />
   </root>
