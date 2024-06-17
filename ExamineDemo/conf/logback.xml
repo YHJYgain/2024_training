@@ -1,4 +1,7 @@
 <configuration>
+    <!-- 自定义转换规则，用于彩色显示日志级别 -->
+    <conversionRule conversionWord="coloredLevel" converterClass="play.api.libs.logback.ColoredLevel" />
+
     <!-- 控制台输出 Appender，用于一般日志 -->
     <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
         <encoder>
@@ -7,7 +10,7 @@
     </appender>
 
     <!-- 所有日志的文件输出 Appender -->
-    <appender name="ALL_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <file>logs/all.log</file>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
             <!-- 每天滚动生成新的日志文件 -->
@@ -20,12 +23,33 @@
         </encoder>
     </appender>
 
+    <!-- 异步文件输出 Appender -->
+    <appender name="ASYNCFILE" class="ch.qos.logback.classic.AsyncAppender">
+        <appender-ref ref="FILE" />
+    </appender>
+
+    <!-- 异步控制台输出 Appender -->
+    <appender name="ASYNCSTDOUT" class="ch.qos.logback.classic.AsyncAppender">
+        <appender-ref ref="STDOUT" />
+    </appender>
+
+    <!-- play logger 配置 -->
+    <logger name="play" level="INFO">
+        <appender-ref ref="ASYNCSTDOUT" />
+    </logger>
+
+    <!-- application logger 配置 -->
+    <logger name="application" level="DEBUG">
+        <appender-ref ref="ASYNCFILE" />
+        <appender-ref ref="ASYNCSTDOUT" />
+    </logger>
+
     <!-- 根日志配置 -->
-    <root level="DEBUG">
+    <root level="WARN">
         <!-- STDOUT Appender 不限制级别，会输出所有级别的日志 -->
         <appender-ref ref="STDOUT" />
         <!-- 所有日志写入同一个文件 -->
-        <appender-ref ref="ALL_FILE" />
+        <appender-ref ref="FILE" />
     </root>
 
 </configuration>
