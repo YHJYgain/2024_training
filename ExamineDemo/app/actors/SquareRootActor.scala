@@ -55,27 +55,27 @@ class SquareRootActor extends Actor with ActorLogging {
       log.info(s"【低级】正在计算数字 $number 的平方根")
       val result: Future[Either[String, Double]] = Future {
         val delay = (100 + scala.util.Random.nextInt(151)).toLong
-        log.info(s"模拟延迟 $delay 毫秒")
+        log.info(s"【低级】模拟延迟 $delay 毫秒")
         Thread.sleep(delay)
         checkDelayAndCompute(number, delay)
       }(ec).recover {
         case ex: Exception =>
-          log.error(s"计算平方根时出错：${ex.getMessage}")
+          log.error(s"【低级】计算平方根时出错：${ex.getMessage}")
           Left(ex.getMessage)
       }
       result.pipeTo(sender())
 
       result.onComplete {
-        case scala.util.Success(Right(value)) => log.info(f"计算结果：$value%.2f")
-        case scala.util.Success(Left(errorMsg)) => log.error(s"计算失败：$errorMsg")
-        case scala.util.Failure(exception) => log.error(s"计算过程中发生异常：${exception.getMessage}")
+        case scala.util.Success(Right(value)) => log.info(f"【低级】计算结果：$value%.2f")
+        case scala.util.Success(Left(errorMsg)) => log.error(s"【低级】计算失败：$errorMsg")
+        case scala.util.Failure(exception) => log.error(s"【低级】计算过程中发生异常：${exception.getMessage}")
       }(ec)
 
     case HigherCalculateSquareRoot(number) =>
       log.info(s"【高级】正在计算数字 $number 的平方根")
       val promise = Promise[Either[String, Double]]()
       val delay = (100 + scala.util.Random.nextInt(151)).milliseconds
-      log.info(s"模拟延迟 $delay")
+      log.info(s"【高级】模拟延迟 $delay")
 
       context.system.scheduler.scheduleOnce(delay) {
         promise.complete {
@@ -83,7 +83,7 @@ class SquareRootActor extends Actor with ActorLogging {
             checkDelayAndCompute(number, delay.toMillis)
           } recover {
             case ex: Exception =>
-              log.error(s"计算平方根时出错：${ex.getMessage}")
+              log.error(s"【高级】计算平方根时出错：${ex.getMessage}")
               Left(ex.getMessage)
           }
         }
@@ -92,9 +92,9 @@ class SquareRootActor extends Actor with ActorLogging {
       promise.future.pipeTo(sender())
 
       promise.future.onComplete {
-        case scala.util.Success(Right(value)) => log.info(f"计算结果：$value%.2f")
-        case scala.util.Success(Left(errorMsg)) => log.error(s"异步计算失败：$errorMsg")
-        case scala.util.Failure(exception) => log.error(s"异步计算过程中发生异常：${exception.getMessage}")
+        case scala.util.Success(Right(value)) => log.info(f"【高级】计算结果：$value%.2f")
+        case scala.util.Success(Left(errorMsg)) => log.error(s"【高级】计算失败：$errorMsg")
+        case scala.util.Failure(exception) => log.error(s"【高级】计算过程中发生异常：${exception.getMessage}")
       }(context.dispatcher)
 
     case ReceiveTimeout =>
