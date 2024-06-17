@@ -42,8 +42,8 @@ class SquareRootActor extends Actor with ActorLogging {
 
   // 自定义线程池
   implicit val ec: ExecutionContext = context.system.dispatchers.lookup("akka.actor.custom-dispatcher")
-  // 自定义超时逻辑：设置接收超时为 3 秒
-  context.setReceiveTimeout(3.seconds)
+  // 自定义超时逻辑：设置接收超时为 5 秒
+  context.setReceiveTimeout(5.seconds)
 
   /**
    * 处理收到的消息
