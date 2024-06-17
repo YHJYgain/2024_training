@@ -15,12 +15,6 @@ libraryDependencies ++= Seq(
   "com.softwaremill.macwire" %% "proxy" % "2.2.4",
   "com.typesafe.play" %% "play" % "2.5.18",
   "org.scalatestplus.play" %% "scalatestplus-play" % "1.5.1" % Test,
-  "org.webjars" % "npm" % "2.11.2",
-  "org.fusesource.leveldbjni" % "leveldbjni-linux32" % "1.8",
-  "org.fusesource.leveldbjni" % "leveldbjni-linux64" % "1.8",
-  "org.fusesource.leveldbjni" % "leveldbjni-osx" % "1.8",
-  "org.fusesource.leveldbjni" % "leveldbjni-win64" % "1.8",
-  "org.fusesource.leveldbjni" % "leveldbjni-win32" % "1.8",
   "org.seleniumhq.selenium" % "selenium-java" % "3.141.59",
   "org.webjars" % "webjars-locator" % "0.25",
   "org.tukaani" % "xz" % "1.0",
@@ -38,14 +32,6 @@ dependencyOverrides ++= Set(
   "io.netty" % "netty-codec" % "4.0.51.Final",
   "org.webjars" % "webjars-locator" % "0.25",
   "org.tukaani" % "xz" % "1.0"
-)
-
-resolvers ++= Seq(
-  "Typesafe repository" at "https://repo.typesafe.com/typesafe/releases/",
-  "Typesafe Ivy Releases" at "https://repo.typesafe.com/typesafe/ivy-releases/",
-  "Sonatype OSS Releases" at "https://oss.sonatype.org/content/repositories/releases/",
-  "Maven Central" at "https://repo1.maven.org/maven2/",
-  "FuseSource releases" at "https://repo.fusesource.com/nexus/content/repositories/releases"
 )
 
 // Adds additional packages into Twirl

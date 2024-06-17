@@ -1,15 +1,31 @@
 <configuration>
-  <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
-    <encoder>
-      <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
-    </encoder>
-  </appender>
+    <!-- 控制台输出 Appender，用于一般日志 -->
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
 
-  <logger name="play" level="INFO"/>
-  <logger name="application" level="INFO"/>
-  <logger name="actors" level="INFO"/>
+    <!-- 所有日志的文件输出 Appender -->
+    <appender name="ALL_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>logs/all.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- 每天滚动生成新的日志文件 -->
+            <fileNamePattern>logs/all.%d{yyyy-MM-dd}.log</fileNamePattern>
+            <!-- 保留 30 天的历史记录 -->
+            <maxHistory>30</maxHistory>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
 
-  <root level="WARN">
-    <appender-ref ref="STDOUT"/>
-  </root>
+    <!-- 根日志配置 -->
+    <root level="DEBUG">
+        <!-- STDOUT Appender 不限制级别，会输出所有级别的日志 -->
+        <appender-ref ref="STDOUT" />
+        <!-- 所有日志写入同一个文件 -->
+        <appender-ref ref="ALL_FILE" />
+    </root>
+
 </configuration>

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9d135220-40ca-4aa3-b993-12de29fab8a0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../ExamineDemo/app/actors/SquareRootActor.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/2024_training.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/2024_training.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AKKADemo/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AKKADemo/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AKKADemo/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AKKADemo/.idea/scala_compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AKKADemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AKKADemo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AKKADemo/project/target/config-classes/$7c91a247db6f9917e14d$.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AKKADemo/project/target/config-classes/$7c91a247db6f9917e14d$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AKKADemo/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/../AKKADemo/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AKKADemo/target/streams/_global/_global/csrLogger/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../AKKADemo/target/streams/_global/_global/csrLogger/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AKKADemo/target/streams/_global/ssExtractDependencies/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamineDemo/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamineDemo/app/Module.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamineDemo/app/actors/SqrtActor.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamineDemo/app/controllers/HomeController.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../ExamineDemo/app/controllers/HomeController.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamineDemo/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/../ExamineDemo/build.sbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamineDemo/conf/application.conf" beforeDir="false" afterPath="$PROJECT_DIR$/../ExamineDemo/conf/application.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamineDemo/conf/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ExamineDemo/conf/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExamineDemo/conf/routes" beforeDir="false" afterPath="$PROJECT_DIR$/../ExamineDemo/conf/routes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PlayDemo/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/../PlayDemo/build.sbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaDemo/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ScalaDemo/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaDemo/.idea/modules/ScalaDemo.ScalaDemo-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ScalaDemo/.idea/modules/ScalaDemo.ScalaDemo-build.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaDemo/.idea/modules/ScalaDemo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ScalaDemo/.idea/modules/ScalaDemo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaDemo/.idea/sbt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ScalaDemo/.idea/sbt.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaDemo/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ScalaDemo/.idea/scala_compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ScalaDemo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaDemo/project/target/config-classes/$242826efc6112d2079b0$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaDemo/project/target/config-classes/$242826efc6112d2079b0.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaDemo/project/target/config-classes/$242826efc6112d2079b0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaDemo/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/../ScalaDemo/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaDemo/project/target/streams/_global/_global/csrLogger/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../ScalaDemo/project/target/streams/_global/_global/csrLogger/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaDemo/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$1$$anonfun$apply$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ScalaDemo/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$1$$anonfun$apply$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaDemo/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ScalaDemo/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaDemo/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ScalaDemo/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaDemo/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$3$$anonfun$apply$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ScalaDemo/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$3$$anonfun$apply$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaDemo/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ScalaDemo/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaDemo/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$basictestquestion$ConfigParser$$parse$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ScalaDemo/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$basictestquestion$ConfigParser$$parse$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaDemo/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$basictestquestion$ConfigParser$$parse$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ScalaDemo/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$basictestquestion$ConfigParser$$parse$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaDemo/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$parseValue$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ScalaDemo/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$parseValue$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaDemo/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$parseValue$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ScalaDemo/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$parseValue$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaDemo/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$parseValue$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ScalaDemo/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$parseValue$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaDemo/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$parseValue$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ScalaDemo/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$parseValue$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaDemo/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$stringify$1$$anonfun$apply$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ScalaDemo/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$stringify$1$$anonfun$apply$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaDemo/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$stringify$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ScalaDemo/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$stringify$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaDemo/target/scala-2.11/classes/basictestquestion/ConfigParser$.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ScalaDemo/target/scala-2.11/classes/basictestquestion/ConfigParser$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaDemo/target/scala-2.11/classes/basictestquestion/ConfigParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ScalaDemo/target/scala-2.11/classes/basictestquestion/ConfigParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaDemo/target/streams/_global/_global/csrLogger/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../ScalaDemo/target/streams/_global/_global/csrLogger/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaDemo/target/streams/_global/updateSbtClassifiers/_global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__ch_qos_logback_logback_classic_1_5_6_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__ch_qos_logback_logback_core_1_5_6_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_actor_2_13_2_9_3_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_actor_testkit_typed_2_13_2_9_3_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_actor_typed_2_13_2_9_3_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_slf4j_2_13_2_9_3_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_testkit_2_13_2_9_3_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_config_1_4_3_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_java8_compat_2_13_1_0_2_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_xml_2_13_2_1_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_13_13_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_reflect_2_13_13_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalactic_scalactic_2_13_3_2_18_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_2_13_3_2_18_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_compatible_3_2_18_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_core_2_13_3_2_18_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_diagrams_2_13_3_2_18_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_featurespec_2_13_3_2_18_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_flatspec_2_13_3_2_18_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_freespec_2_13_3_2_18_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_funspec_2_13_3_2_18_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_funsuite_2_13_3_2_18_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_matchers_core_2_13_3_2_18_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_mustmatchers_2_13_3_2_18_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_propspec_2_13_3_2_18_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_refspec_2_13_3_2_18_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_shouldmatchers_2_13_3_2_18_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_wordspec_2_13_3_2_18_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_slf4j_slf4j_api_2_0_13_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__scala_sdk_2_13_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/akka-quickstart.akka-quickstart-build.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/akka-quickstart.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sbt.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/global-logging/sbt-global-log2620053382627423934.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/example/ActorHierarchyExperiments$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/example/ActorHierarchyExperiments$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/example/ActorHierarchyExperiments.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/example/HelloWorld$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/example/HelloWorld$Greet$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/example/HelloWorld$Greet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/example/HelloWorld$Greeted$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/example/HelloWorld$Greeted.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/example/HelloWorld.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/example/HelloWorldBot$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/example/HelloWorldBot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/example/HelloWorldMain$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/example/HelloWorldMain$SayHello$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/example/HelloWorldMain$SayHello.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/example/HelloWorldMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/example/Main$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/example/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/example/PrintMyActorRefActor$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/example/PrintMyActorRefActor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/example/StartStopActor1$$anonfun$onSignal$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/example/StartStopActor1$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/example/StartStopActor1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/example/StartStopActor2$$anonfun$onSignal$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/example/StartStopActor2$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/example/StartStopActor2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/_global/csrLogger/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/_global/csrLogger/_global/streams/out" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\.m2\repository" />
+        <option name="userSettingsFile" value="D:\.m2\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2i0gglmrElFWQHk9E6X0Yz6NkzA" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "sbt.project.settings.configurable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="akka-quickstart_1260" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="akka-quickstart_1260" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9d135220-40ca-4aa3-b993-12de29fab8a0" name="Changes" comment="" />
+      <created>1718633022285</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1718633022285</updated>
+      <workItem from="1718633023681" duration="379000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
