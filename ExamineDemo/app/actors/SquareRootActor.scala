@@ -37,6 +37,7 @@ object SquareRootActor {
  * SquareRootActor 类实现了计算平方根的逻辑
  */
 class SquareRootActor extends Actor with ActorLogging {
+
   import SquareRootActor._
 
   // 自定义线程池
@@ -53,7 +54,7 @@ class SquareRootActor extends Actor with ActorLogging {
     case LowerCalculateSquareRoot(number) =>
       log.info(s"【低级】正在计算数字 $number 的平方根")
       val result: Future[Either[String, Double]] = Future {
-        val delay = scala.util.Random.nextInt(251).toLong
+        val delay = (100 + scala.util.Random.nextInt(151)).toLong
         log.info(s"模拟延迟 $delay 毫秒")
         Thread.sleep(delay)
         checkDelayAndCompute(number, delay)
@@ -62,16 +63,18 @@ class SquareRootActor extends Actor with ActorLogging {
           log.error(s"计算平方根时出错：${ex.getMessage}")
           Left(ex.getMessage)
       }
-      result.pipeTo(sender()).onComplete {
+      result.pipeTo(sender())
+
+      result.onComplete {
         case scala.util.Success(Right(value)) => log.info(f"计算结果：$value%.2f")
         case scala.util.Success(Left(errorMsg)) => log.error(s"计算失败：$errorMsg")
         case scala.util.Failure(exception) => log.error(s"计算过程中发生异常：${exception.getMessage}")
-      }
+      }(ec)
 
     case HigherCalculateSquareRoot(number) =>
       log.info(s"【高级】正在计算数字 $number 的平方根")
       val promise = Promise[Either[String, Double]]()
-      val delay = scala.util.Random.nextInt(251).milliseconds
+      val delay = (100 + scala.util.Random.nextInt(151)).milliseconds
       log.info(s"模拟延迟 $delay")
 
       context.system.scheduler.scheduleOnce(delay) {
@@ -86,11 +89,13 @@ class SquareRootActor extends Actor with ActorLogging {
         }
       }(context.dispatcher)
 
-      promise.future.pipeTo(sender()).onComplete {
-        case scala.util.Success(Right(value)) => log.info(f"异步计算结果：$value%.2f")
+      promise.future.pipeTo(sender())
+
+      promise.future.onComplete {
+        case scala.util.Success(Right(value)) => log.info(f"计算结果：$value%.2f")
         case scala.util.Success(Left(errorMsg)) => log.error(s"异步计算失败：$errorMsg")
         case scala.util.Failure(exception) => log.error(s"异步计算过程中发生异常：${exception.getMessage}")
-      }
+      }(context.dispatcher)
 
     case ReceiveTimeout =>
       log.warning("Actor 在超时时间内没有收到消息")
@@ -105,10 +110,7 @@ class SquareRootActor extends Actor with ActorLogging {
    * @return 包含计算结果或错误信息的 Either 实例
    */
   private def checkDelayAndCompute(number: Int, delay: Long): Either[String, Double] = {
-    if (delay < 100) {
-      val errorMsg = s"延迟时间小于 100 ms：$delay ms，实现错误"
-      Left(errorMsg)
-    } else if (delay > 200) {
+    if (delay > 200) {
       val errorMsg = s"延迟时间大于 200 ms：$delay ms，请求失败"
       Left(errorMsg)
     } else {

@@ -1,6 +1,7 @@
 package actions
 
 import akka.actor.ActorSystem
+import akka.actor.TypedActor.context
 import akka.stream.Materializer
 import org.slf4j.LoggerFactory
 import play.api.mvc._
@@ -65,7 +66,7 @@ class RateLimitAction @Inject()(maxRequestsPerSecond: Int)
 
   // 调度器，每秒运行一次重置请求计数的任务
   system.scheduler.schedule(0.seconds, 1.second)(new Runnable {
-    def run(): Unit = {
+    override def run(): Unit = {
       logger.info("调度器正在运行")
       resetRequestCount()
     }
