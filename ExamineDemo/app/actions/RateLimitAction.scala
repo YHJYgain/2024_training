@@ -1,7 +1,6 @@
 package actions
 
 import akka.actor.ActorSystem
-import akka.actor.TypedActor.context
 import akka.stream.Materializer
 import org.slf4j.LoggerFactory
 import play.api.mvc._
