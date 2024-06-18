@@ -24,14 +24,14 @@
 
 ## 开发环境
 
-| 名称         | 概述                                                         |
-| ------------ | ------------------------------------------------------------ |
-| 操作系统     | [Windows 11](https://www.microsoft.com/zh-cn/software-download/windows11) |
-| 集成开发环境 | [IntelliJ IDEA 2022.2.4](https://www.jetbrains.com/idea/)    |
-| 编程语言     | [Scala 2.11.12](https://www.scala-lang.org/)                 |
-| JDK          | [Amazon Corretto 8](https://docs.aws.amazon.com/zh_cn/corretto/latest/corretto-8-ug/downloads-list.html) |
+| 名称         | 概述                                                                                                                         |
+| ------------ |----------------------------------------------------------------------------------------------------------------------------|
+| 操作系统     | [Windows 11](https://www.microsoft.com/zh-cn/software-download/windows11)                                                  |
+| 集成开发环境 | [IntelliJ IDEA 2022.2.4](https://www.jetbrains.com/idea/)                                                                  |
+| 编程语言     | [Scala 2.11.12](https://www.scala-lang.org/)                                                                               |
+| JDK          | [Amazon Corretto 8](https://docs.aws.amazon.com/zh_cn/corretto/latest/corretto-8-ug/downloads-list.html)                   |
 | 构建工具     | [sbt 0.13.18](https://www.scala-sbt.org/download)、[Docker Desktop 4.30.0](https://www.docker.com/products/docker-desktop/) |
-| 框架         | [Play Framework 2.5.18](https://www.playframework.com/documentation/2.5.x/Installing)、[Akka 2.5.13](https://akka.io/) |
+| 框架         | [Play Framework 2.5.18](https://www.playframework.com/documentation/2.5.x/Installing)、[AKKA 2.5.13](https://akka.io/)      |
 
 ## 如何开始
 
