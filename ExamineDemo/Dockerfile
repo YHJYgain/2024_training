@@ -18,5 +18,5 @@ RUN chmod +x /app/examinedemo-1.0-SNAPSHOT/bin/examinedemo
 # 暴露应用端口
 EXPOSE 9000
 
-# 运行应用程序
-ENTRYPOINT ["/app/examinedemo-1.0-SNAPSHOT/bin/examinedemo"]
+# 运行应用程序（堆内存最多 4GB，使用 G1 作为垃圾回收器）
+ENTRYPOINT ["/app/examinedemo-1.0-SNAPSHOT/bin/examinedemo", "-J-Xmx4G", "-J-XX:+UseG1GC"]

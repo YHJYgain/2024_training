@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ef2b44d-eea0-4f09-aece-4d043c0b4743" name="Changes" comment="2024_training">
-      <change beforePath="$PROJECT_DIR$/ExamineDemo/build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/ExamineDemo/build.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExamineDemo/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ExamineDemo/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +69,7 @@
       <option name="presentableId" value="Default" />
       <updated>1718627095656</updated>
       <workItem from="1718627096802" duration="5847000" />
-      <workItem from="1718686796902" duration="3006000" />
+      <workItem from="1718686796902" duration="3637000" />
     </task>
     <task id="LOCAL-00001" summary="2024_training">
       <option name="closed" value="true" />
@@ -175,7 +175,23 @@
       <option name="project" value="LOCAL" />
       <updated>1718702900291</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="2024_training">
+      <option name="closed" value="true" />
+      <created>1718703458794</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1718703458794</updated>
+    </task>
+    <task id="LOCAL-00015" summary="2024_training">
+      <option name="closed" value="true" />
+      <created>1718703471639</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1718703471639</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
