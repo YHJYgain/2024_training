@@ -11,7 +11,8 @@ COPY . .
 RUN sbt dist
 
 # 安装 unzip 工具并解压 zip 文件
-RUN apt-get update && apt-get install -y unzip && \
+RUN apt-get update &&  \
+    apt-get install -y unzip && \
     unzip target/universal/examinedemo-1.0-SNAPSHOT.zip -d /app && \
     rm target/universal/examinedemo-1.0-SNAPSHOT.zip
 

@@ -5,7 +5,7 @@
     <!-- 控制台输出 Appender，用于一般日志 -->
     <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
         <encoder>
-            <pattern>%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n</pattern>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} [%thread] %coloredLevel %logger{36} - %msg%n</pattern>
         </encoder>
     </appender>
 
@@ -19,18 +19,18 @@
             <maxHistory>30</maxHistory>
         </rollingPolicy>
         <encoder>
-            <pattern>%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n</pattern>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} [%thread] %coloredLevel %logger{36} - %msg%n</pattern>
         </encoder>
-    </appender>
-
-    <!-- 异步文件输出 Appender -->
-    <appender name="ASYNCFILE" class="ch.qos.logback.classic.AsyncAppender">
-        <appender-ref ref="FILE" />
     </appender>
 
     <!-- 异步控制台输出 Appender -->
     <appender name="ASYNCSTDOUT" class="ch.qos.logback.classic.AsyncAppender">
         <appender-ref ref="STDOUT" />
+    </appender>
+
+    <!-- 异步文件输出 Appender -->
+    <appender name="ASYNCFILE" class="ch.qos.logback.classic.AsyncAppender">
+        <appender-ref ref="FILE" />
     </appender>
 
     <!-- play logger 配置 -->
@@ -45,11 +45,10 @@
     </logger>
 
     <!-- 根日志配置 -->
-    <root level="WARN">
+    <root level="DEBUG">
         <!-- STDOUT Appender 不限制级别，会输出所有级别的日志 -->
         <appender-ref ref="STDOUT" />
         <!-- 所有日志写入同一个文件 -->
         <appender-ref ref="FILE" />
     </root>
-
 </configuration>
