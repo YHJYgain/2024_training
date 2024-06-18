@@ -20,5 +20,5 @@ docker login
 # 构建 Docker（版本请自行修改）
 docker build -t examine-demo:v1.0 .
 
-# 启动 Docker 容器
+# 创建并启动 Docker 容器
 docker run -d -p 9000:9000 --name examine-demo-container examine-demo:v1.0

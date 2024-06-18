@@ -1,6 +1,6 @@
 # 基于 Play Framework + AKKA Actor 的服务器高延迟 API
 
-## 介绍
+## 项目介绍
 
 - 基于 Play Framework + AKKA Actor 实现服务器高延迟 API
 

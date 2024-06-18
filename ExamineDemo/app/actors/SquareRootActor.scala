@@ -1,11 +1,12 @@
 package actors
 
-import akka.actor.{Actor, ActorLogging, Props, ReceiveTimeout}
-import akka.pattern.pipe
 import scala.concurrent.duration._
 import scala.concurrent.{ExecutionContext, Future, Promise}
 import scala.math.sqrt
-import scala.util.{Random, Try, Success, Failure}
+import scala.util._
+
+import akka.actor._
+import akka.pattern.pipe
 
 /**
  * SquareRootActor 负责处理计算平方根的消息
@@ -37,11 +38,10 @@ object SquareRootActor {
  * SquareRootActor 类实现了计算平方根的逻辑
  */
 class SquareRootActor extends Actor with ActorLogging {
-
   import SquareRootActor._
 
   // 自定义线程池
-  implicit val ec: ExecutionContext = context.system.dispatchers.lookup("akka.actor.custom-dispatcher")
+  private implicit val ec: ExecutionContext = context.system.dispatchers.lookup("akka.actor.custom-dispatcher")
   // 自定义超时逻辑：设置接收超时为 5 秒
   context.setReceiveTimeout(5.seconds)
 

@@ -1,38 +1,40 @@
 package actions
 
-import akka.actor.ActorSystem
-import akka.stream.Materializer
+import javax.inject._
 import org.slf4j.LoggerFactory
+import java.util.concurrent.atomic.AtomicInteger
+
+import scala.concurrent.{ExecutionContext, Future}
+import scala.concurrent.duration._
+
 import play.api.Configuration
 import play.api.mvc._
 
-import scala.concurrent.{ExecutionContext, Future}
-import java.util.concurrent.atomic.AtomicInteger
-import javax.inject.{Inject, Singleton}
-import scala.concurrent.duration._
+import akka.actor.ActorSystem
+import akka.stream.Materializer
 
 /**
  * 限流 Action，用于限制每秒处理的请求数量
  *
  * @param configuration Configuration 实例，用于读取配置
- * @param system        ActorSystem 实例，用于调度任务
- * @param mat           Materializer 实例，用于 Akka 流
- * @param ec            ExecutionContext 实例，用于异步处理
+ * @param actorSystem   ActorSystem 实例，用于调度任务
+ * @param mat           Materializer 实例，用于 AKKA 流
+ * @param ec            ExecutionContext 实例，用于异步操作
  */
 @Singleton
-class RateLimitAction @Inject()(configuration: Configuration, system: ActorSystem)
+class RateLimitAction @Inject()(configuration: Configuration, actorSystem: ActorSystem)
                                (implicit val mat: Materializer,
                                 implicit val ec: ExecutionContext) extends ActionBuilder[Request] {
-
+  // 日志器
   private val logger = LoggerFactory.getLogger(classOf[RateLimitAction])
+  // 限流值（从 application.conf 文件读取）
   private val maxRequestsPerSecond: Int = configuration.getInt("rate.limiting.maxRequestsPerSecond").getOrElse(5)
   logger.info(s"读取限流值：$maxRequestsPerSecond")
+  // 当前请求数量
   private val requestCount = new AtomicInteger(0)
 
-  override protected def executionContext: ExecutionContext = ec
-
   // 调度器，每秒运行一次重置请求计数的任务
-  system.scheduler.schedule(0.seconds, 1.second) {
+  actorSystem.scheduler.schedule(0.seconds, 1.second) {
     try {
 //      logger.info("调度器正在运行")
       resetRequestCount()

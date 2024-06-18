@@ -9,7 +9,7 @@
         </encoder>
     </appender>
 
-    <!-- 所有日志的文件输出 Appender -->
+    <!-- 所有日志级别的文件输出 Appender -->
     <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <file>logs/application.log</file>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
