@@ -14,6 +14,9 @@ if [ "$(docker images -q examine-demo:v1.0)" ]; then
     docker rmi examine-demo:v1.0
 fi
 
+# 登录 Docker
+docker login
+
 # 构建 Docker（版本请自行修改）
 docker build -t examine-demo:v1.0 .
 
