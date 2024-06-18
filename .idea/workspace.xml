@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ef2b44d-eea0-4f09-aece-4d043c0b4743" name="Changes" comment="2024_training">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExamineDemo/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ExamineDemo/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ExamineDemo/app/actions/RateLimitAction.scala" beforeDir="false" afterPath="$PROJECT_DIR$/ExamineDemo/app/actions/RateLimitAction.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExamineDemo/app/actors/SquareRootActor.scala" beforeDir="false" afterPath="$PROJECT_DIR$/ExamineDemo/app/actors/SquareRootActor.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExamineDemo/app/controllers/HomeController.scala" beforeDir="false" afterPath="$PROJECT_DIR$/ExamineDemo/app/controllers/HomeController.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExamineDemo/conf/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ExamineDemo/conf/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExamineDemo/app/views/index.scala.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExamineDemo/app/views/main.scala.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExamineDemo/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/ExamineDemo/build.sbt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +72,7 @@
       <option name="presentableId" value="Default" />
       <updated>1718627095656</updated>
       <workItem from="1718627096802" duration="5847000" />
-      <workItem from="1718686796902" duration="607000" />
+      <workItem from="1718686796902" duration="1226000" />
     </task>
     <task id="LOCAL-00001" summary="2024_training">
       <option name="closed" value="true" />
@@ -156,7 +154,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718645425282</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="2024_training">
+      <option name="closed" value="true" />
+      <created>1718692022285</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1718692022285</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

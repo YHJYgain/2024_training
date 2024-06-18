@@ -16,7 +16,6 @@ libraryDependencies ++= Seq(
   "com.typesafe.play" %% "play" % "2.5.18",
   "org.scalatestplus.play" %% "scalatestplus-play" % "1.5.1" % Test,
 
-  "org.fusesource.leveldbjni" % "leveldbjni-all" % "1.8",
   "org.seleniumhq.selenium" % "selenium-java" % "3.141.59",
   "org.webjars" % "webjars-locator" % "0.25",
   "org.tukaani" % "xz" % "1.0",

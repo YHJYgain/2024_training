@@ -32,17 +32,15 @@ class RateLimitAction @Inject()(configuration: Configuration, system: ActorSyste
   override protected def executionContext: ExecutionContext = ec
 
   // 调度器，每秒运行一次重置请求计数的任务
-  system.scheduler.schedule(0.seconds, 1.second)(new Runnable {
-    override def run(): Unit = {
-      try {
-        logger.info("调度器正在运行")
-        resetRequestCount()
-      } catch {
-        case ex: Exception =>
-          logger.error("调度器运行时出现异常: ", ex)
-      }
+  system.scheduler.schedule(0.seconds, 1.second) {
+    try {
+      logger.info("调度器正在运行")
+      resetRequestCount()
+    } catch {
+      case ex: Exception =>
+        logger.error("调度器运行时出现异常: ", ex)
     }
-  })
+  }
   logger.info("调度器已启动")
 
   /**
