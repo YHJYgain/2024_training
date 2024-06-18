@@ -39,7 +39,7 @@
 
 2. clone 项目。
 
-3. 运行项目根目录下的 [./build.sh](https://github.com/YHJYgain/2024_training/blob/master/ExamineDemo/build.sh) 文件。（此时默认已下载好 bash）
+3. 运行项目根目录下的 [./build.sh](https://github.com/YHJYgain/2024_training/blob/master/ExamineDemo/build.sh) 脚本文件。（此时默认已下载好 bash）
 
 4. 运行完成之后，打开 Docker Desktop，可以看到 Docker 容器已经在运行：
 
