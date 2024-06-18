@@ -1,8 +1,8 @@
-# 基于 Play Framework + Akka actor 的服务器高延迟 API
+# 基于 Play Framework + AKKA Actor 的服务器高延迟 API
 
 ## 介绍
 
-- 基于 Play Framework + Akka actor 实现服务器高延迟 API
+- 基于 Play Framework + AKKA Actor 实现服务器高延迟 API
 
   - **输入**：一个整形数据
 
@@ -13,7 +13,7 @@
 - 已实现以下功能：
   1. 基于 Play Action 实现限流能力，限流值（5）配置在本地配置文件 [./conf/application.conf](https://github.com/YHJYgain/2024_training/blob/master/ExamineDemo/conf/application.conf) 中。
   2. 日志分级：Error/Warn 日志与 Info 日志区分开。
-  3. Akka Actor 实现低高级业务逻辑：
+  3. AKKA Actor 实现低高级业务逻辑：
      - Actor 有自定义超时逻辑（5s），防止 Actor 超时太长，不能及时退出。
      - 【低级】用 sleep 模拟高延迟处理：用线程数量固定且队列有界的自定义线程池隔离 sleep 阻塞逻辑。
      - 【高级】用 Future/Promise 异步逻辑模拟高延迟，定时一段时间后，再返回结果。
@@ -35,7 +35,7 @@
 
 ## 如何开始
 
-1. 下载 [Docker Desktop](https://www.docker.com/products/docker-desktop/)，并注册。
+1. 下载 [Docker Desktop](https://www.docker.com/products/docker-desktop/)，注册并打开。
 
 2. clone 项目。
 

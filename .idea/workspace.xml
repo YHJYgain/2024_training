@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ef2b44d-eea0-4f09-aece-4d043c0b4743" name="Changes" comment="2024_training">
-      <change beforePath="$PROJECT_DIR$/ExamineDemo/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ExamineDemo/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +69,8 @@
       <option name="presentableId" value="Default" />
       <updated>1718627095656</updated>
       <workItem from="1718627096802" duration="5847000" />
-      <workItem from="1718686796902" duration="5010000" />
+      <workItem from="1718686796902" duration="6737000" />
+      <workItem from="1718714295204" duration="94000" />
     </task>
     <task id="LOCAL-00001" summary="2024_training">
       <option name="closed" value="true" />
@@ -207,7 +208,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718707294176</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="2024_training">
+      <option name="closed" value="true" />
+      <created>1718707974212</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1718707974212</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
