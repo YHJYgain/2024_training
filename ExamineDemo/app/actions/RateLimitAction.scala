@@ -34,7 +34,7 @@ class RateLimitAction @Inject()(configuration: Configuration, system: ActorSyste
   // 调度器，每秒运行一次重置请求计数的任务
   system.scheduler.schedule(0.seconds, 1.second) {
     try {
-      logger.info("调度器正在运行")
+//      logger.info("调度器正在运行")
       resetRequestCount()
     } catch {
       case ex: Exception =>
@@ -75,7 +75,7 @@ class RateLimitAction @Inject()(configuration: Configuration, system: ActorSyste
    * 重置请求计数
    */
   private def resetRequestCount(): Unit = {
-    logger.info("重置请求计数")
+//    logger.info("重置请求计数")
     requestCount.set(0)
   }
 }
