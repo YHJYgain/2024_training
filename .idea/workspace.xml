@@ -6,19 +6,18 @@
   <component name="ChangeListManager">
     <list default="true" id="6ef2b44d-eea0-4f09-aece-4d043c0b4743" name="Changes" comment="2024_training">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExamineDemo/app/actors/SquareRootActor.scala" beforeDir="false" afterPath="$PROJECT_DIR$/ExamineDemo/app/actors/SquareRootActor.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ScalaDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ScalaDemo/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ScalaDemo/src/main/scala/basictestquestion/ConfigParser.scala" beforeDir="false" afterPath="$PROJECT_DIR$/ScalaDemo/src/main/scala/basictestquestion/ConfigParser.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScalaDemo/src/main/scala/basictestquestion/Main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/ScalaDemo/src/main/scala/basictestquestion/Main.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ScalaDemo/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/ScalaDemo/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ScalaDemo/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$3$$anonfun$apply$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/ScalaDemo/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$3$$anonfun$apply$3.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ScalaDemo/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/ScalaDemo/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScalaDemo/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$basictestquestion$ConfigParser$$parse$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScalaDemo/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$basictestquestion$ConfigParser$$parse$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaDemo/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$parse$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/ScalaDemo/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$parse$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaDemo/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$parse$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/ScalaDemo/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$parse$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaDemo/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$parseValue$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/ScalaDemo/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$parseValue$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaDemo/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$parseValue$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/ScalaDemo/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$parseValue$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaDemo/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$parseValue$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/ScalaDemo/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$parseValue$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaDemo/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$parseValue$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/ScalaDemo/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$parseValue$4.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ScalaDemo/target/scala-2.11/classes/basictestquestion/ConfigParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/ScalaDemo/target/scala-2.11/classes/basictestquestion/ConfigParser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScalaDemo/target/scala-2.11/classes/basictestquestion/Main$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/ScalaDemo/target/scala-2.11/classes/basictestquestion/Main$$anonfun$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScalaDemo/target/scala-2.11/classes/basictestquestion/Main$.class" beforeDir="false" afterPath="$PROJECT_DIR$/ScalaDemo/target/scala-2.11/classes/basictestquestion/Main$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScalaDemo/target/scala-2.11/classes/basictestquestion/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/ScalaDemo/target/scala-2.11/classes/basictestquestion/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +86,7 @@
       <workItem from="1718714295204" duration="94000" />
       <workItem from="1718718846243" duration="919000" />
       <workItem from="1718726909660" duration="675000" />
-      <workItem from="1718772876958" duration="865000" />
+      <workItem from="1718772876958" duration="1502000" />
     </task>
     <task id="LOCAL-00001" summary="2024_training">
       <option name="closed" value="true" />
@@ -281,7 +280,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718773139215</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="2024_training">
+      <option name="closed" value="true" />
+      <created>1718780086551</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1718780086551</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

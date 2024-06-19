@@ -59,7 +59,7 @@ class SquareRootActor extends Actor with ActorLogging {
   override def receive: Receive = {
     case LowerCalculateSquareRoot(number) =>
       log.info(s"【低级】正在计算数字 $number 的平方根")
-      val originalSender = sender()  // 捕获sender
+      val originalSender = sender()  // 捕获 sender
       Future {
         val delay = (100 + Random.nextInt(151)).toLong
         log.info(s"【低级】模拟延迟 $delay 毫秒")
@@ -79,7 +79,7 @@ class SquareRootActor extends Actor with ActorLogging {
 
     case HigherCalculateSquareRoot(number) =>
       log.info(s"【高级】正在计算数字 $number 的平方根")
-      val originalSender = sender()  // 捕获sender
+      val originalSender = sender()  // 捕获 sender
       val delay = (100 + Random.nextInt(151)).milliseconds
       log.info(s"【高级】模拟延迟 $delay")
 

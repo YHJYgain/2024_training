@@ -64,7 +64,6 @@ object ConfigParser {
 }
 
 class ConfigParser {
-
   import ConfigParser._
 
   // 匹配配置项的名称和属性
