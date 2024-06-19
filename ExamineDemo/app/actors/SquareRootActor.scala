@@ -88,7 +88,7 @@ class SquareRootActor extends Actor with ActorLogging {
               Left(ex.getMessage)
           }
         }
-      }(context.dispatcher)
+      }
 
       promise.future.pipeTo(sender())
 
