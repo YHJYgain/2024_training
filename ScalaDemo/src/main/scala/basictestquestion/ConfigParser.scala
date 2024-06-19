@@ -5,7 +5,6 @@ import scala.concurrent.Future
 import scala.concurrent.ExecutionContext.Implicits.global
 
 object ConfigParser {
-
   // 定义配置项的数据结构
   case class SwitchConfig(
                            name: String,
@@ -78,7 +77,7 @@ class ConfigParser {
   private val configMap = scala.collection.mutable.Map[String, SwitchConfig]()
   private var error: Option[String] = None
 
-  private def parse(configStr: String): Result = {
+  def parse(configStr: String): Result = {
     val lines = configStr.split("\r?\n").filter(_.trim.nonEmpty) // 将配置字符串按行分割并过滤掉空行
     for (line <- lines if error.isEmpty) {
       parseLine(line)
@@ -129,11 +128,9 @@ class ConfigParser {
 
   def parseAll(configStrList: List[String]): Future[List[Result]] = {
     val futures = configStrList.map(configStr => Future {
-      val parser = new ConfigParser()
-      parser.parse(configStr)
+      parse(configStr)
     })
 
     Future.sequence(futures)
   }
-
 }

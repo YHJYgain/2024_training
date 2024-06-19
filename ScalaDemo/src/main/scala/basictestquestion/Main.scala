@@ -4,7 +4,6 @@ import scala.concurrent.{Await, Future}
 import scala.concurrent.duration._
 
 object Main extends App {
-
   val configStr: String =
     """
 switchA.enabled = true
@@ -38,9 +37,18 @@ switchB.metaInfo.comment = "hello world"
   println("-----------------------------------------------------------")
 
   println("【bonus3：多线程】")
-  val configStrList: List[String] = List(configStr)
+  val configStrList: List[String] = List.fill(10000)(configStr)  // 假设有 1000 个配置项字符串进行测试
+  // 测试不并行处理的时间
+  private val startTimeNonParallel = System.currentTimeMillis()
+  private val resultListNonParallel = configStrList.map(parser.parse)
+  private val endTimeNonParallel = System.currentTimeMillis()
+  println(s"不并行处理时间: ${endTimeNonParallel - startTimeNonParallel} ms")
+//  resultListNonParallel.take(1).foreach(res => println(ConfigParser.toPrettyString(res)))
+  // 测试并行处理的时间
+  private val startTimeParallel = System.currentTimeMillis()
   private val resultFuture: Future[List[ConfigParser.Result]] = parser.parseAll(configStrList)
-  private val resultList: List[ConfigParser.Result] = Await.result(resultFuture, 10.seconds)
-  resultList.foreach(res => println(ConfigParser.toPrettyString(res)))
-
+  private val resultList: List[ConfigParser.Result] = Await.result(resultFuture, Duration.Inf)
+  private val endTimeParallel = System.currentTimeMillis()
+  println(s"并行处理时间: ${endTimeParallel - startTimeParallel} ms")
+//  resultList.take(1).foreach(res => println(ConfigParser.toPrettyString(res)))
 }

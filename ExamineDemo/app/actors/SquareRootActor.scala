@@ -6,7 +6,6 @@ import scala.math.sqrt
 import scala.util._
 
 import akka.actor._
-import akka.pattern.pipe
 
 /**
  * SquareRootActor 负责处理计算平方根的消息
@@ -32,6 +31,13 @@ object SquareRootActor {
    * @param number 要计算平方根的数字
    */
   case class HigherCalculateSquareRoot(number: Int)
+
+  /**
+   * 计算结果的消息类
+   *
+   * @param result 计算结果或错误信息
+   */
+  private case class CalculationResult(result: Either[String, Double])
 }
 
 /**
@@ -53,30 +59,31 @@ class SquareRootActor extends Actor with ActorLogging {
   override def receive: Receive = {
     case LowerCalculateSquareRoot(number) =>
       log.info(s"【低级】正在计算数字 $number 的平方根")
-      val result: Future[Either[String, Double]] = Future {
+      val originalSender = sender()  // 捕获sender
+      Future {
         val delay = (100 + Random.nextInt(151)).toLong
         log.info(s"【低级】模拟延迟 $delay 毫秒")
         Thread.sleep(delay)
-        checkDelayAndCompute(number, delay)
+        val result = checkDelayAndCompute(number, delay)
+        originalSender ! CalculationResult(result)
+        result
       }.recover {
         case ex: Exception =>
           log.error(s"【低级】计算平方根时出错：${ex.getMessage}")
-          Left(ex.getMessage)
-      }
-
-      result.pipeTo(sender())
-
-      result.onComplete {
-        case Success(Right(value)) => log.info(f"【低级】计算结果：$value%.2f")
+          originalSender ! CalculationResult(Left(ex.getMessage))
+      }.onComplete {
+        case Success(Right(value)) => log.info(f"【低级】计算结果：${value.asInstanceOf[Double]}%.2f")
         case Success(Left(errorMsg)) => log.error(s"【低级】计算失败：$errorMsg")
         case Failure(exception) => log.error(s"【低级】计算过程中发生异常：${exception.getMessage}")
       }
 
     case HigherCalculateSquareRoot(number) =>
       log.info(s"【高级】正在计算数字 $number 的平方根")
-      val promise = Promise[Either[String, Double]]()
+      val originalSender = sender()  // 捕获sender
       val delay = (100 + Random.nextInt(151)).milliseconds
       log.info(s"【高级】模拟延迟 $delay")
+
+      val promise = Promise[Either[String, Double]]()
 
       context.system.scheduler.scheduleOnce(delay) {
         promise.complete {
@@ -88,9 +95,8 @@ class SquareRootActor extends Actor with ActorLogging {
               Left(ex.getMessage)
           }
         }
+        originalSender ! CalculationResult(promise.future.value.get.get)
       }
-
-      promise.future.pipeTo(sender())
 
       promise.future.onComplete {
         case Success(Right(value)) => log.info(f"【高级】计算结果：$value%.2f")

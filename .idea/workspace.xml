@@ -5,15 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ef2b44d-eea0-4f09-aece-4d043c0b4743" name="Changes" comment="2024_training">
-      <change beforePath="$PROJECT_DIR$/ExamineDemo/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ExamineDemo/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExamineDemo/app/actions/RateLimitAction.scala" beforeDir="false" afterPath="$PROJECT_DIR$/ExamineDemo/app/actions/RateLimitAction.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ExamineDemo/app/actors/SquareRootActor.scala" beforeDir="false" afterPath="$PROJECT_DIR$/ExamineDemo/app/actors/SquareRootActor.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExamineDemo/app/controllers/HomeController.scala" beforeDir="false" afterPath="$PROJECT_DIR$/ExamineDemo/app/controllers/HomeController.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExamineDemo/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/ExamineDemo/build.sbt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExamineDemo/build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/ExamineDemo/build.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExamineDemo/conf/application.conf" beforeDir="false" afterPath="$PROJECT_DIR$/ExamineDemo/conf/application.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExamineDemo/conf/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ExamineDemo/conf/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExamineDemo/conf/routes" beforeDir="false" afterPath="$PROJECT_DIR$/ExamineDemo/conf/routes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ScalaDemo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaDemo/src/main/scala/basictestquestion/ConfigParser.scala" beforeDir="false" afterPath="$PROJECT_DIR$/ScalaDemo/src/main/scala/basictestquestion/ConfigParser.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaDemo/src/main/scala/basictestquestion/Main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/ScalaDemo/src/main/scala/basictestquestion/Main.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaDemo/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/ScalaDemo/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaDemo/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$3$$anonfun$apply$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/ScalaDemo/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$3$$anonfun$apply$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaDemo/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/ScalaDemo/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaDemo/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$basictestquestion$ConfigParser$$parse$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaDemo/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$basictestquestion$ConfigParser$$parse$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaDemo/target/scala-2.11/classes/basictestquestion/ConfigParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/ScalaDemo/target/scala-2.11/classes/basictestquestion/ConfigParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaDemo/target/scala-2.11/classes/basictestquestion/Main$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/ScalaDemo/target/scala-2.11/classes/basictestquestion/Main$$anonfun$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaDemo/target/scala-2.11/classes/basictestquestion/Main$.class" beforeDir="false" afterPath="$PROJECT_DIR$/ScalaDemo/target/scala-2.11/classes/basictestquestion/Main$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaDemo/target/scala-2.11/classes/basictestquestion/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/ScalaDemo/target/scala-2.11/classes/basictestquestion/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,24 +48,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "sbt.project.settings.configurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;sbt.project.settings.configurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -82,6 +87,7 @@
       <workItem from="1718714295204" duration="94000" />
       <workItem from="1718718846243" duration="919000" />
       <workItem from="1718726909660" duration="675000" />
+      <workItem from="1718772876958" duration="865000" />
     </task>
     <task id="LOCAL-00001" summary="2024_training">
       <option name="closed" value="true" />
@@ -259,7 +265,23 @@
       <option name="project" value="LOCAL" />
       <updated>1718726941346</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="2024_training">
+      <option name="closed" value="true" />
+      <created>1718773038771</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1718773038771</updated>
+    </task>
+    <task id="LOCAL-00024" summary="2024_training">
+      <option name="closed" value="true" />
+      <created>1718773139215</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1718773139215</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
