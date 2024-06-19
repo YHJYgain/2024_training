@@ -63,6 +63,7 @@ class SquareRootActor extends Actor with ActorLogging {
           log.error(s"【低级】计算平方根时出错：${ex.getMessage}")
           Left(ex.getMessage)
       }
+
       result.pipeTo(sender())
 
       result.onComplete {
