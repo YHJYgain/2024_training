@@ -7,17 +7,7 @@
     <list default="true" id="ae5c7a1c-919a-429e-850c-70c34e070228" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/basictestquestion/ConfigParser.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/basictestquestion/ConfigParser.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$3$$anonfun$apply$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$3$$anonfun$apply$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$parse$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$parse$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$parse$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$parse$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$parseValue$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$parseValue$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$parseValue$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$parseValue$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$parseValue$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$parseValue$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$parseValue$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/basictestquestion/ConfigParser$$anonfun$parseValue$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/basictestquestion/ConfigParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/basictestquestion/ConfigParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/basictestquestion/Main$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/basictestquestion/Main$.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,24 +42,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.27011493",
-    "settings.editor.selected.configurable": "sbt.project.settings.configurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.27011493&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;sbt.project.settings.configurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="basictestquestion.Main" />
@@ -120,7 +110,9 @@
       <option name="presentableId" value="Default" />
       <updated>1718632801589</updated>
       <workItem from="1718632802779" duration="131000" />
-      <workItem from="1718775757987" duration="5165000" />
+      <workItem from="1718775757987" duration="6535000" />
+      <workItem from="1718783344729" duration="3000" />
+      <workItem from="1718987182584" duration="595000" />
     </task>
     <servers />
   </component>
