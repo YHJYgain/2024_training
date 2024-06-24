@@ -127,7 +127,8 @@ class ConfigParser {
 
   def parseAll(configStrList: List[String]): Future[List[Result]] = {
     val futures = configStrList.map(configStr => Future {
-      parse(configStr)
+      val parser = new ConfigParser()
+      parser.parse(configStr)
     })
 
     Future.sequence(futures)
