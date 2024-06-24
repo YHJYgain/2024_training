@@ -127,7 +127,7 @@ class ConfigParser {
 
   def parseAll(configStrList: List[String]): Future[List[Result]] = {
     val futures = configStrList.map(configStr => Future {
-      val parser = new ConfigParser()
+      val parser = new ConfigParser() // 每次 new 避免了共用一个 map 可能导致的并发问题
       parser.parse(configStr)
     })
 
